@@ -1,0 +1,21 @@
+<svg width="720" height="220" viewBox="0 0 720 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="220" rx="44" fill="#101820"/>
+  <circle cx="108" cy="110" r="70" fill="url(#glow)" opacity="0.18"/>
+  <path d="M74 139C88 105 118 76 154 62C145 89 144 116 161 146C133 139 107 141 74 139Z" fill="url(#mark)"/>
+  <path d="M106 128C124 104 146 88 174 78C160 101 157 121 169 146C146 135 126 129 106 128Z" fill="#FFD27A" opacity="0.78"/>
+  <path d="M178 65C201 70 219 88 226 111" stroke="#FF9F1C" stroke-width="14" stroke-linecap="round"/>
+  <path d="M193 97C204 105 212 116 216 129" stroke="#FFD27A" stroke-width="10" stroke-linecap="round"/>
+  <text x="650" y="135" direction="rtl" text-anchor="end" font-family="'Noto Kufi Arabic','Noto Sans Arabic','Arial',sans-serif" font-size="82" font-weight="800" fill="#FFF7E8" letter-spacing="-2">اعلاني</text>
+  <text x="650" y="169" direction="rtl" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700" fill="#FFB13B" letter-spacing="3">BUSINESS LAUNCH KIT</text>
+  <defs>
+    <linearGradient id="mark" x1="68" y1="58" x2="208" y2="157" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD27A"/>
+      <stop offset="0.52" stop-color="#FF9F1C"/>
+      <stop offset="1" stop-color="#E85D04"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(108 110) rotate(90) scale(70)">
+      <stop stop-color="#FFB13B"/>
+      <stop offset="1" stop-color="#FFB13B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
