@@ -19,6 +19,25 @@
     a { color: #101820; text-decoration: none; }
     a:hover { color: #C05207; }
     input, select, textarea { font-family: 'IBM Plex Sans Arabic', 'Segoe UI', Tahoma, sans-serif; box-sizing: border-box; width: 100%; }
+
+    @media (max-width: 640px) {
+      header > div { padding: 10px 14px !important; gap: 10px !important; }
+      header nav { display: none !important; }
+      header a[aria-label] { min-height: 44px !important; }
+      header > div > a:last-child { min-height: 44px !important; padding: 10px 12px !important; font-size: 13px !important; }
+      section { padding-left: 16px !important; padding-right: 16px !important; }
+      #top { grid-template-columns: 1fr !important; gap: 26px !important; padding-top: 44px !important; }
+      #top h1 { font-size: clamp(30px, 9.2vw, 40px) !important; line-height: 1.2 !important; }
+      #top p { font-size: 16px !important; }
+      #top > div:first-child > div:last-of-type { width: 100% !important; }
+      #top > div:first-child > div:last-of-type a { min-height: 48px !important; display: inline-flex !important; align-items: center !important; justify-content: center !important; flex: 1 1 100% !important; text-align: center !important; }
+      #top > div:last-child { min-height: 360px !important; }
+      #examples a { min-height: 44px !important; }
+      #examples > div:first-child > a { display: inline-flex !important; align-items: center !important; }
+      #examples img { max-width: 100% !important; }
+      footer a { min-height: 44px !important; display: inline-flex !important; align-items: center !important; }
+      a { overflow-wrap: anywhere; }
+    }
   </style>
 </helmet>
 
