@@ -18,7 +18,7 @@
     html { scroll-behavior: smooth; }
     a { color: #101820; text-decoration: none; }
     a:hover { color: #C05207; }
-    input, select, textarea { font-family: 'IBM Plex Sans Arabic', 'Segoe UI', Tahoma, sans-serif; }
+    input, select, textarea { font-family: 'IBM Plex Sans Arabic', 'Segoe UI', Tahoma, sans-serif; box-sizing: border-box; width: 100%; }
   </style>
 </helmet>
 
@@ -35,7 +35,7 @@
       <a href="#pricing" style="color: #101820;" style-hover="color: #C05207;">العرض</a>
       <a href="#contact" style="color: #101820;" style-hover="color: #C05207;">تواصل معنا</a>
     </nav>
-    <a href="#pricing" style="background: #E85D04; color: #FFFFFF; font-weight: 700; font-size: 15px; padding: 11px 20px; border-radius: 10px; white-space: nowrap; box-shadow: 0 8px 20px -10px rgba(232,93,4,0.7);" style-hover="background: #C94F03; color: #FFFFFF;">احصل على عرض الإطلاق</a>
+    <a href="#contact" style="background: #E85D04; color: #FFFFFF; font-weight: 700; font-size: 15px; padding: 11px 20px; border-radius: 10px; white-space: nowrap; box-shadow: 0 8px 20px -10px rgba(232,93,4,0.7);" style-hover="background: #C94F03; color: #FFFFFF;">قدّم على صفحة مجانية</a>
   </div>
 </header>
 
@@ -46,20 +46,20 @@
       <span style="width: 8px; height: 8px; border-radius: 50%; background: #E85D04;"></span>
       للأنشطة المحلية في السعودية والخليج
     </div>
-    <h1 style="font-weight: 700; font-size: clamp(34px, 4.6vw, 52px); line-height: 1.25; margin: 20px 0 18px; text-wrap: pretty;">نجهز حضور نشاطك التجاري <span style="color: #E85D04;">بالكامل</span> — وأنت تتفرغ لشغلك.</h1>
-    <p style="font-size: 18px; line-height: 1.8; color: #55524B; margin: 0 0 28px; max-width: 520px; text-wrap: pretty;">نجهز لك حضور نشاطك بالكامل — موقع، هوية بصرية، تصاميم إعلانية، ومحتوى إطلاق — عشان تطلع بشكل احترافي وتبدأ تجذب عملاء بسرعة.</p>
+    <h1 style="font-weight: 700; font-size: clamp(34px, 4.6vw, 52px); line-height: 1.25; margin: 20px 0 18px; text-wrap: pretty;">عندنا <span style="color: #E85D04;">3 أشياء</span> لإطلاق نشاطك — ونبني لك صفحة هبوط مجانية إذا تأهلت.</h1>
+    <p style="font-size: 18px; line-height: 1.8; color: #55524B; margin: 0 0 28px; max-width: 520px; text-wrap: pretty;">نريك نماذج مواقع لأنشطة حقيقية، نؤهلك لصفحة هبوط مجانية لنشاطك، وإذا كان نشاطك مناسبًا نبني لك باقة الإطلاق الكاملة: موقع، هوية بصرية، محتوى، ومواد واتساب جاهزة.</p>
     <div style="display: flex; flex-wrap: wrap; gap: 12px;">
-      <a href="#pricing" style="background: #E85D04; color: #FFFFFF; font-weight: 700; font-size: 16px; padding: 15px 26px; border-radius: 10px; box-shadow: 0 10px 24px -10px rgba(232,93,4,0.7);" style-hover="background: #C94F03; color: #FFFFFF;">احصل على عرض الإطلاق بـ 2499 ريال</a>
+      <a href="#contact" style="background: #E85D04; color: #FFFFFF; font-weight: 700; font-size: 16px; padding: 15px 26px; border-radius: 10px; box-shadow: 0 10px 24px -10px rgba(232,93,4,0.7);" style-hover="background: #C94F03; color: #FFFFFF;">قدّم على صفحة الهبوط المجانية</a>
       <a href="{{ waLink }}" target="_blank" rel="noopener" style="background: #FFFFFF; color: #101820; font-weight: 700; font-size: 16px; padding: 15px 26px; border-radius: 10px; border: 1px solid #E0D8C9;" style-hover="border-color: #101820; color: #101820;">راسلنا واتساب</a>
     </div>
-    <p style="margin: 14px 0 0; font-size: 14px; color: #9B968B;">قيمة الباقة <s style="color: #9B968B;">7999 ريال</s> <b style="color: #101820;">2499 ريال</b> — عرض إطلاق لفترة محدودة</p>
+    <p style="margin: 14px 0 0; font-size: 14px; color: #9B968B;">ابدأ بالتأهيل المجاني — وإذا احتجت الباقة الكاملة فقيمتها <s style="color: #9B968B;">7999 ريال</s> <b style="color: #101820;">2499 ريال</b> لفترة محدودة</p>
   </div>
   <div style="position: relative; min-height: 500px;">
     <img src="public/static-ads/car-workshop.jpg" alt="نموذج إعلان ورشة سيارات" style="position: absolute; left: 8%; top: 0; width: min(320px, 62%); aspect-ratio: 4 / 5; object-fit: cover; border-radius: 16px; border: 6px solid #FFFFFF; box-shadow: 0 30px 60px -25px rgba(16,24,32,0.45); transform: rotate(-2.5deg); z-index: 2;">
     <img src="public/static-ads/ac-maintenance.jpg" alt="نموذج إعلان صيانة مكيفات" style="position: absolute; right: 0; top: 90px; width: min(250px, 50%); aspect-ratio: 4 / 5; object-fit: cover; border-radius: 16px; border: 6px solid #FFFFFF; box-shadow: 0 24px 50px -22px rgba(16,24,32,0.4); transform: rotate(3deg); z-index: 1;">
     <div style="position: absolute; right: 6%; bottom: 8px; z-index: 3; background: #101820; color: #FFFFFF; border-radius: 14px; padding: 14px 18px; display: flex; align-items: center; gap: 12px; box-shadow: 0 20px 40px -18px rgba(16,24,32,0.6);">
       <img src="public/brand/ealani-icon.svg" alt="" style="width: 40px; height: 40px; border-radius: 10px; display: block;">
-      <span style="font-size: 14px; line-height: 1.5;"><b style="display: block; font-size: 15px;">باقة إطلاق كاملة</b><span style="color: #B8B4AC;">موقع + هوية + إعلانات جاهزة</span></span>
+      <span style="font-size: 14px; line-height: 1.5;"><b style="display: block; font-size: 15px;">باقة إطلاق كاملة</b><span style="color: #B8B4AC;">صفحة هبوط + هوية + مواد واتساب</span></span>
     </div>
     <div style="position: absolute; left: 0; bottom: 60px; z-index: 2; width: 150px; height: 150px; transform: rotate(-4deg);">
       <img src="public/brand/ealani-ai-logo-concept.jpg" alt="نموذج هوية بصرية من اعلاني" style="width: 100%; height: 100%; object-fit: cover; border-radius: 14px; border: 5px solid #FFFFFF; box-shadow: 0 18px 40px -18px rgba(16,24,32,0.45);">
@@ -72,24 +72,24 @@
   <div style="max-width: 1160px; margin: 0 auto; padding: 22px 24px; display: flex; flex-wrap: wrap; justify-content: center; gap: 14px 34px; font-size: 15px; font-weight: 600;">
     <span style="display: flex; align-items: center; gap: 9px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #E85D04;"></span>باقة إطلاق كاملة</span>
     <span style="display: flex; align-items: center; gap: 9px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #E85D04;"></span>مصممة للأنشطة السعودية والخليجية</span>
-    <span style="display: flex; align-items: center; gap: 9px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #E85D04;"></span>إعلانات جاهزة للواتساب</span>
-    <span style="display: flex; align-items: center; gap: 9px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #E85D04;"></span>بدون جلسة تصوير</span>
+    <span style="display: flex; align-items: center; gap: 9px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #E85D04;"></span>صفحات هبوط جاهزة للواتساب</span>
+    <span style="display: flex; align-items: center; gap: 9px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #E85D04;"></span>بدون تعقيد أو برمجة منك</span>
     <span style="display: flex; align-items: center; gap: 9px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #E85D04;"></span>تسليم سريع وواضح</span>
   </div>
 </section>
 
 <!-- ============ PROBLEM ============ -->
 <section style="max-width: 760px; margin: 0 auto; padding: 90px 24px 40px; text-align: center;" data-screen-label="Problem">
-  <h2 style="font-weight: 700; font-size: clamp(26px, 3.4vw, 38px); line-height: 1.35; margin: 0 0 18px; text-wrap: pretty;">معظم الأنشطة المحلية تحتاج إعلانات أفضل، لا تسويقًا معقدًا.</h2>
-  <p style="font-size: 17px; line-height: 1.85; color: #55524B; margin: 0; text-wrap: pretty;">كثير من الأنشطة الصغيرة تنشر تصاميم عشوائية أو صورًا قديمة أو بروشورات ضعيفة الجودة. اعلاني يجهز لها حضورًا كاملًا — موقع وهوية وإعلانات نظيفة وواقعية — لتبدأ بجذب العملاء اليوم.</p>
+  <h2 style="font-weight: 700; font-size: clamp(26px, 3.4vw, 38px); line-height: 1.35; margin: 0 0 18px; text-wrap: pretty;">معظم الأنشطة المحلية لا تحتاج إعلانًا فقط — تحتاج صفحة هبوط تقنع العميل بسرعة.</h2>
+  <p style="font-size: 17px; line-height: 1.85; color: #55524B; margin: 0; text-wrap: pretty;">الإعلان بدون صفحة واضحة يضيع العميل. اعلاني يبدأ من صفحة هبوط مجانية للأنشطة المؤهلة، ثم يحولها إلى حضور كامل — موقع، هوية، ومحتوى يبيع الخدمة بوضوح.</p>
 </section>
 
 <!-- ============ SOLUTION ============ -->
 <section style="max-width: 1160px; margin: 0 auto; padding: 50px 24px 40px;" data-screen-label="What you get">
   <p style="color: #E85D04; font-size: 14px; font-weight: 700; margin: 0 0 10px;">الخدمة</p>
-  <h2 style="font-weight: 700; font-size: clamp(26px, 3.4vw, 38px); margin: 0 0 30px;">ماذا تقدم لك اعلاني؟</h2>
+  <h2 style="font-weight: 700; font-size: clamp(26px, 3.4vw, 38px); margin: 0 0 30px;">الثلاثة أشياء التي نقدمها لك</h2>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
-    <sc-for list="{{ solutionCards }}" as="card" hint-placeholder-count="6">
+    <sc-for list="{{ solutionCards }}" as="card" hint-placeholder-count="3">
       <div style="background: #FFFFFF; border: 1px solid #E9E2D6; border-radius: 16px; padding: 24px;">
         <span style="display: grid; place-items: center; width: 34px; height: 34px; border-radius: 9px; background: #FFEAD6; color: #C05207; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 14px; margin-bottom: 14px;">{{ card.n }}</span>
         <h3 style="font-weight: 700; font-size: 18px; margin: 0 0 8px;">{{ card.title }}</h3>
@@ -103,58 +103,46 @@
 <section id="examples" style="max-width: 1160px; margin: 0 auto; padding: 70px 24px 40px;" data-screen-label="Examples">
   <div style="display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 16px; margin-bottom: 30px;">
     <div>
-      <p style="color: #E85D04; font-size: 14px; font-weight: 700; margin: 0 0 10px;">الأمثلة</p>
-      <h2 style="font-weight: 700; font-size: clamp(26px, 3.4vw, 38px); margin: 0;">إعلانات حقيقية لأنشطة حقيقية</h2>
+      <p style="color: #E85D04; font-size: 14px; font-weight: 700; margin: 0 0 10px;">نماذج المواقع</p>
+      <h2 style="font-weight: 700; font-size: clamp(26px, 3.4vw, 38px); margin: 0;">صفحات هبوط حقيقية لأنشطة حقيقية</h2>
     </div>
-    <a href="#pricing" style="font-weight: 700; font-size: 15px; color: #C05207; white-space: nowrap;">← احجز عرض الإطلاق</a>
+    <a href="#contact" style="font-weight: 700; font-size: 15px; color: #C05207; white-space: nowrap;">← قدّم على صفحة مجانية</a>
   </div>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px;">
     <div style="background: #FFFFFF; border: 1px solid #E9E2D6; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column;">
-      <div style="height: 260px; background: #EFEAE0;"><img src="public/static-ads/car-workshop.jpg" alt="إعلان عرض فحص الفرامل" style="width: 100%; height: 100%; object-fit: cover; display: block;"></div>
+      <div style="height: 260px; background: linear-gradient(135deg,#101820,#243447); padding: 20px; color: #FFFFFF; display: grid; align-content: space-between;">
+        <div style="display:flex; justify-content:space-between; align-items:center; font-size:13px; color:#D6D3CC;"><b>ورشة سيارات</b><span>احجز الآن</span></div>
+        <div><h3 style="font-size:28px; line-height:1.25; margin:0 0 10px;">صفحة فحص وصيانة</h3><p style="margin:0; color:#D6D3CC; line-height:1.6;">خدمات واضحة + أسعار بداية + زر واتساب مباشر</p></div>
+        <span style="display:inline-block; width:max-content; background:#E85D04; color:#fff; padding:10px 16px; border-radius:9px; font-weight:700;">احجز فحصك</span>
+      </div>
       <div style="padding: 18px 20px 20px;">
-        <span style="font-size: 13px; font-weight: 700; color: #C05207;">ورشة سيارات</span>
-        <h3 style="font-weight: 700; font-size: 19px; margin: 6px 0 6px;">عرض فحص الفرامل</h3>
-        <p style="font-size: 14px; color: #6B675E; margin: 0;">احجز فحصك اليوم — راسلنا واتساب</p>
+        <span style="font-size: 13px; font-weight: 700; color: #C05207;">نموذج موقع</span>
+        <h3 style="font-weight: 700; font-size: 19px; margin: 6px 0 6px;">ورشة سيارات</h3>
+        <p style="font-size: 14px; color: #6B675E; margin: 0;">صفحة تعرض الخدمات، الثقة، ومواعيد الحجز بدل إعلان واحد يضيع.</p>
       </div>
     </div>
     <div style="background: #FFFFFF; border: 1px solid #E9E2D6; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column;">
-      <div style="height: 260px; background: #EFEAE0;"><img src="public/static-ads/ac-maintenance.jpg" alt="إعلان خصم صيانة المكيفات" style="width: 100%; height: 100%; object-fit: cover; display: block;"></div>
+      <div style="height: 260px; background: linear-gradient(135deg,#F7EFE2,#DCEAF7); padding: 20px; color: #101820; display: grid; align-content: space-between;">
+        <div style="display:flex; justify-content:space-between; align-items:center; font-size:13px; color:#6B675E;"><b>صيانة مكيفات</b><span>خدمة منزلية</span></div>
+        <div><h3 style="font-size:28px; line-height:1.25; margin:0 0 10px;">صفحة صيانة طوارئ</h3><p style="margin:0; color:#55524B; line-height:1.6;">مناطق الخدمة + عروض الموسم + أسئلة العملاء</p></div>
+        <span style="display:inline-block; width:max-content; background:#101820; color:#fff; padding:10px 16px; border-radius:9px; font-weight:700;">اطلب زيارة</span>
+      </div>
       <div style="padding: 18px 20px 20px;">
-        <span style="font-size: 13px; font-weight: 700; color: #C05207;">صيانة مكيفات</span>
-        <h3 style="font-weight: 700; font-size: 19px; margin: 6px 0 6px;">خصم صيانة المكيفات</h3>
-        <p style="font-size: 14px; color: #6B675E; margin: 0;">فحص الصيف — راسلنا لحجز موعدك</p>
+        <span style="font-size: 13px; font-weight: 700; color: #C05207;">نموذج موقع</span>
+        <h3 style="font-weight: 700; font-size: 19px; margin: 6px 0 6px;">صيانة مكيفات</h3>
+        <p style="font-size: 14px; color: #6B675E; margin: 0;">صفحة تقنع العميل بسرعة وتجمع الطلبات من واتساب.</p>
       </div>
     </div>
     <div style="background: #FFFFFF; border: 1px solid #E9E2D6; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column;">
-      <div style="height: 260px; background: #EFEAE0;"><image-slot id="ex-cleaning" shape="rect" placeholder="إعلان خدمة تنظيف"></image-slot></div>
-      <div style="padding: 18px 20px 20px;">
-        <span style="font-size: 13px; font-weight: 700; color: #C05207;">خدمة تنظيف</span>
-        <h3 style="font-weight: 700; font-size: 19px; margin: 6px 0 6px;">باقة تنظيف المنازل</h3>
-        <p style="font-size: 14px; color: #6B675E; margin: 0;">تنظيف عميق هذا الأسبوع — أرسل لنا موقعك</p>
+      <div style="height: 260px; background: linear-gradient(135deg,#FFF7E8,#FFE0C2); padding: 20px; color: #101820; display: grid; align-content: space-between;">
+        <div style="display:flex; justify-content:space-between; align-items:center; font-size:13px; color:#6B675E;"><b>مطعم / كافيه</b><span>قائمة + حجز</span></div>
+        <div><h3 style="font-size:28px; line-height:1.25; margin:0 0 10px;">صفحة إطلاق فرع جديد</h3><p style="margin:0; color:#55524B; line-height:1.6;">المنيو، الموقع، العروض، وروابط الطلب في مكان واحد</p></div>
+        <span style="display:inline-block; width:max-content; background:#E85D04; color:#fff; padding:10px 16px; border-radius:9px; font-weight:700;">شاهد القائمة</span>
       </div>
-    </div>
-    <div style="background: #FFFFFF; border: 1px solid #E9E2D6; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column;">
-      <div style="height: 260px; background: #EFEAE0;"><img src="public/static-ads/barber-package.jpg" alt="إعلان عرض قص وتحديد اللحية" style="width: 100%; height: 100%; object-fit: cover; display: block;"></div>
       <div style="padding: 18px 20px 20px;">
-        <span style="font-size: 13px; font-weight: 700; color: #C05207;">صالون حلاقة</span>
-        <h3 style="font-weight: 700; font-size: 19px; margin: 6px 0 6px;">عرض قص وتحديد اللحية</h3>
-        <p style="font-size: 14px; color: #6B675E; margin: 0;">عرض أيام الأسبوع — احجز على واتساب</p>
-      </div>
-    </div>
-    <div style="background: #FFFFFF; border: 1px solid #E9E2D6; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column;">
-      <div style="height: 260px; background: #EFEAE0;"><image-slot id="ex-clinic" shape="rect" placeholder="إعلان عيادة"></image-slot></div>
-      <div style="padding: 18px 20px 20px;">
-        <span style="font-size: 13px; font-weight: 700; color: #C05207;">عيادة</span>
-        <h3 style="font-weight: 700; font-size: 19px; margin: 6px 0 6px;">عرض فحص الأسنان</h3>
-        <p style="font-size: 14px; color: #6B675E; margin: 0;">عرض المرضى الجدد — احجز زيارتك</p>
-      </div>
-    </div>
-    <div style="background: #FFFFFF; border: 1px solid #E9E2D6; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column;">
-      <div style="height: 260px; background: #EFEAE0;"><img src="public/static-ads/plumbing-service.jpg" alt="إعلان سباك طوارئ" style="width: 100%; height: 100%; object-fit: cover; display: block;"></div>
-      <div style="padding: 18px 20px 20px;">
-        <span style="font-size: 13px; font-weight: 700; color: #C05207;">سباكة</span>
-        <h3 style="font-weight: 700; font-size: 19px; margin: 6px 0 6px;">إعلان سباك طوارئ</h3>
-        <p style="font-size: 14px; color: #6B675E; margin: 0;">خدمة 24/7 — احفظ رقمنا اليوم</p>
+        <span style="font-size: 13px; font-weight: 700; color: #C05207;">نموذج موقع</span>
+        <h3 style="font-weight: 700; font-size: 19px; margin: 6px 0 6px;">مطعم أو كافيه</h3>
+        <p style="font-size: 14px; color: #6B675E; margin: 0;">صفحة جاهزة للإطلاق تجمع المنيو، الموقع، والعرض في رابط واحد.</p>
       </div>
     </div>
   </div>
@@ -189,7 +177,7 @@
 <section id="pricing" style="max-width: 1160px; margin: 0 auto; padding: 90px 24px 50px;" data-screen-label="Pricing">
   <p style="color: #E85D04; font-size: 14px; font-weight: 700; margin: 0 0 10px; text-align: center;">عرض الإطلاق</p>
   <h2 style="font-weight: 700; font-size: clamp(26px, 3.4vw, 38px); margin: 0 0 14px; text-align: center;">باقة إطلاق نشاطك بالكامل</h2>
-  <p style="font-size: 17px; line-height: 1.85; color: #55524B; margin: 0 auto 36px; max-width: 620px; text-align: center; text-wrap: pretty;">نجهز لك حضور نشاطك بالكامل — موقع، هوية بصرية، تصاميم إعلانية، ومحتوى إطلاق — عشان تطلع بشكل احترافي وتبدأ تجذب عملاء بسرعة.</p>
+  <p style="font-size: 17px; line-height: 1.85; color: #55524B; margin: 0 auto 36px; max-width: 620px; text-align: center; text-wrap: pretty;">نريك نماذج مواقع لأنشطة حقيقية، نؤهلك لصفحة هبوط مجانية لنشاطك، وإذا كان نشاطك مناسبًا نبني لك باقة الإطلاق الكاملة: موقع، هوية بصرية، محتوى، ومواد واتساب جاهزة.</p>
   <div style="max-width: 860px; margin: 0 auto; background: #101820; color: #FFFFFF; border-radius: 22px; padding: clamp(28px, 4vw, 44px); position: relative; box-shadow: 0 40px 80px -40px rgba(16,24,32,0.6);">
     <span style="position: absolute; top: 24px; left: 24px; background: #E85D04; color: #FFFFFF; font-size: 13px; font-weight: 700; border-radius: 99px; padding: 6px 14px;">عرض الإطلاق</span>
     <h3 style="font-weight: 700; font-size: 24px; margin: 0 0 18px;">باقة إطلاق نشاطك بالكامل</h3>
@@ -228,8 +216,8 @@
 <section style="max-width: 1160px; margin: 20px auto 0; padding: 0 24px;" data-screen-label="CTA band">
   <div style="background: #E85D04; border-radius: 24px; padding: clamp(36px, 5vw, 60px); text-align: center; color: #FFFFFF;">
     <h2 style="font-weight: 700; font-size: clamp(24px, 3.2vw, 36px); line-height: 1.4; margin: 0 0 14px; text-wrap: pretty;">جاهز تطلق نشاطك بشكل احترافي؟</h2>
-    <p style="font-size: 17px; line-height: 1.8; margin: 0 auto 26px; max-width: 560px; color: rgba(255,255,255,0.92); text-wrap: pretty;">باقة إطلاق كاملة — موقع، هوية، وإعلانات جاهزة. كانت 7999 ريال، والآن 2499 ريال لفترة محدودة.</p>
-    <a href="#contact" style="display: inline-block; background: #101820; color: #FFFFFF; font-weight: 700; font-size: 16px; padding: 15px 28px; border-radius: 10px;" style-hover="background: #000000; color: #FFFFFF;">احصل على عرض الإطلاق بـ 2499 ريال</a>
+    <p style="font-size: 17px; line-height: 1.8; margin: 0 auto 26px; max-width: 560px; color: rgba(255,255,255,0.92); text-wrap: pretty;">ابدأ بفرصة صفحة هبوط مجانية إذا كان نشاطك مؤهلًا. وإذا احتجت الإطلاق الكامل: موقع، هوية، ومحتوى — كانت 7999 ريال، والآن 2499 ريال لفترة محدودة.</p>
+    <a href="#contact" style="display: inline-block; background: #101820; color: #FFFFFF; font-weight: 700; font-size: 16px; padding: 15px 28px; border-radius: 10px;" style-hover="background: #000000; color: #FFFFFF;">قدّم على صفحة الهبوط المجانية</a>
   </div>
 </section>
 
@@ -237,8 +225,8 @@
 <section id="contact" style="max-width: 1160px; margin: 0 auto; padding: 90px 24px 70px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; align-items: start;" data-screen-label="Contact">
   <div>
     <p style="color: #E85D04; font-size: 14px; font-weight: 700; margin: 0 0 10px;">تواصل معنا</p>
-    <h2 style="font-weight: 700; font-size: clamp(26px, 3.4vw, 38px); margin: 0 0 16px;">احجز عرض الإطلاق الآن</h2>
-    <p style="font-size: 16px; line-height: 1.85; color: #55524B; margin: 0 0 26px; max-width: 440px;">عبّئ النموذج أو راسلنا مباشرة على واتساب. نتفق على نطاق العمل وموعد التسليم قبل أي دفع.</p>
+    <h2 style="font-weight: 700; font-size: clamp(26px, 3.4vw, 38px); margin: 0 0 16px;">قدّم على صفحة هبوط مجانية</h2>
+    <p style="font-size: 16px; line-height: 1.85; color: #55524B; margin: 0 0 26px; max-width: 440px;">عبّئ الأسئلة السريعة عشان نعرف هل نشاطك مؤهل لصفحة هبوط مجانية، وهل يناسبه عرض الإطلاق الكامل لاحقًا.</p>
     <a href="{{ waLink }}" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 10px; background: #1E9E54; color: #FFFFFF; font-weight: 700; font-size: 16px; padding: 14px 24px; border-radius: 10px; box-shadow: 0 10px 24px -10px rgba(30,158,84,0.6);" style-hover="background: #188A48; color: #FFFFFF;">
       <span style="width: 9px; height: 9px; border-radius: 50%; background: #FFFFFF;"></span>
       راسلنا على واتساب
@@ -273,12 +261,28 @@
     <label style="display: grid; gap: 6px; font-size: 14px; font-weight: 700;">رقم الواتساب
       <input name="whatsapp" required placeholder="+966 5X XXX XXXX" style="border: 1px solid #E0D8C9; border-radius: 10px; padding: 12px 14px; font-size: 15px; background: #FAF7F1; direction: ltr; text-align: right;">
     </label>
-    <label style="display: grid; gap: 6px; font-size: 14px; font-weight: 700;">ما العرض الذي تريد الترويج له؟
-      <textarea name="offer" rows="3" placeholder="مثال: فحص فرامل بـ 99 ريال هذا الشهر" style="border: 1px solid #E0D8C9; border-radius: 10px; padding: 12px 14px; font-size: 15px; background: #FAF7F1; resize: vertical;"></textarea>
+    <label style="display: grid; gap: 6px; font-size: 14px; font-weight: 700;">ما الخدمة أو العرض الأساسي الذي تريد بيعه؟
+      <textarea name="offer" rows="3" placeholder="مثال: صيانة مكيفات منزلية خلال 24 ساعة" style="border: 1px solid #E0D8C9; border-radius: 10px; padding: 12px 14px; font-size: 15px; background: #FAF7F1; resize: vertical;"></textarea>
     </label>
-    <button type="submit" style="background: #E85D04; color: #FFFFFF; font-weight: 700; font-size: 16px; padding: 14px 24px; border-radius: 10px; border: none; cursor: pointer; box-shadow: 0 10px 24px -10px rgba(232,93,4,0.7);" style-hover="background: #C94F03;">احجز عرض الإطلاق</button>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px;">
+      <label style="display: grid; gap: 6px; font-size: 14px; font-weight: 700;">هل لديك موقع حاليًا؟
+        <select name="hasWebsite" style="border: 1px solid #E0D8C9; border-radius: 10px; padding: 12px 14px; font-size: 15px; background: #FAF7F1;"><option>لا، أحتاج صفحة من الصفر</option><option>نعم، لكنه يحتاج تحسين</option><option>نعم، ومناسب حاليًا</option></select>
+      </label>
+      <label style="display: grid; gap: 6px; font-size: 14px; font-weight: 700;">متى تريد إطلاق الصفحة؟
+        <select name="timeline" style="border: 1px solid #E0D8C9; border-radius: 10px; padding: 12px 14px; font-size: 15px; background: #FAF7F1;"><option>هذا الأسبوع</option><option>خلال أسبوعين</option><option>خلال شهر</option><option>لست مستعجلًا</option></select>
+      </label>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px;">
+      <label style="display: grid; gap: 6px; font-size: 14px; font-weight: 700;">ميزانية التسويق الشهرية تقريبًا
+        <select name="budget" style="border: 1px solid #E0D8C9; border-radius: 10px; padding: 12px 14px; font-size: 15px; background: #FAF7F1;"><option>أقل من 2000 ريال</option><option>2000 - 5000 ريال</option><option>5000 - 10000 ريال</option><option>أكثر من 10000 ريال</option></select>
+      </label>
+      <label style="display: grid; gap: 6px; font-size: 14px; font-weight: 700;">هل أنت صاحب القرار؟
+        <select name="decisionMaker" style="border: 1px solid #E0D8C9; border-radius: 10px; padding: 12px 14px; font-size: 15px; background: #FAF7F1;"><option>نعم، أنا صاحب القرار</option><option>أحتاج موافقة شريك / مدير</option><option>أبحث فقط الآن</option></select>
+      </label>
+    </div>
+    <button type="submit" style="background: #E85D04; color: #FFFFFF; font-weight: 700; font-size: 16px; padding: 14px 24px; border-radius: 10px; border: none; cursor: pointer; box-shadow: 0 10px 24px -10px rgba(232,93,4,0.7);" style-hover="background: #C94F03;">قدّم للتأهيل المجاني</button>
     <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
-      <p style="margin: 0; font-size: 14px; font-weight: 600; color: #1E9E54; text-align: center;">جارٍ فتح واتساب بطلبك — سنرد عليك بسرعة.</p>
+      <p style="margin: 0; font-size: 14px; font-weight: 600; color: #1E9E54; text-align: center;">جارٍ فتح واتساب بطلب التأهيل — سنراجع نشاطك ونرد عليك.</p>
     </sc-if>
   </form>
 </section>
@@ -290,7 +294,7 @@
       <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
         <img src="public/brand/ealani-logo.svg" alt="اعلاني — Business Launch Kit" style="height: 52px; display: block;">
       </div>
-      <p style="font-size: 14px; line-height: 1.75; margin: 0;">نجهز حضور نشاطك بالكامل — موقع، هوية بصرية، وإعلانات — للأنشطة المحلية في السعودية والخليج.</p>
+      <p style="font-size: 14px; line-height: 1.75; margin: 0;">نبدأ بصفحة هبوط مجانية للأنشطة المؤهلة، ثم نبني حضورًا كاملًا — موقع، هوية، ومحتوى — للأنشطة المحلية في السعودية والخليج.</p>
     </div>
     <nav style="display: flex; flex-direction: column; gap: 10px; font-size: 14px; font-weight: 600;">
       <a href="#top" style="color: #D6D3CC;" style-hover="color: #FFFFFF;">الرئيسية</a>
@@ -323,19 +327,23 @@ class Component extends DCLogic {
 
   renderVals() {
     const num = (this.props.whatsappNumber ?? '966540483312').replace(/[^0-9]/g, '');
-    const waLink = 'https://wa.me/' + num + '?text=' + encodeURIComponent('مرحباً اعلاني! أبغى أحجز عرض الإطلاق — باقة إطلاق نشاطي بالكامل بـ 2499 ريال.');
+    const waLink = 'https://wa.me/' + num + '?text=' + encodeURIComponent('مرحباً اعلاني! أبغى أعرف هل نشاطي مؤهل لصفحة هبوط مجانية.');
 
     const submitForm = (e) => {
       e.preventDefault();
       const f = new FormData(e.target);
       const msg = [
-        'مرحباً اعلاني! أبغى أحجز عرض الإطلاق — باقة إطلاق نشاطي بالكامل بـ 2499 ريال.',
+        'مرحباً اعلاني! أبغى أعرف هل نشاطي مؤهل لصفحة هبوط مجانية.',
         'الاسم: ' + f.get('name'),
         'النشاط: ' + f.get('business'),
         'النوع: ' + f.get('type'),
         'المدينة: ' + f.get('city'),
         'واتساب: ' + f.get('whatsapp'),
-        'العرض: ' + (f.get('offer') || '-')
+        'العرض / الخدمة الأساسية: ' + (f.get('offer') || '-'),
+        'هل لديه موقع؟: ' + (f.get('hasWebsite') || '-'),
+        'موعد الإطلاق: ' + (f.get('timeline') || '-'),
+        'ميزانية التسويق: ' + (f.get('budget') || '-'),
+        'صاحب القرار؟: ' + (f.get('decisionMaker') || '-')
       ].join('\n');
       window.open('https://wa.me/' + num + '?text=' + encodeURIComponent(msg), '_blank');
       this.setState({ sent: true });
@@ -347,12 +355,9 @@ class Component extends DCLogic {
       sent: this.state.sent,
       showFloat: this.props.showFloatingWhatsApp ?? true,
       solutionCards: [
-        { n: '01', title: 'تصاميم إعلانية واقعية', text: 'إعلانات نظيفة وقابلة للتصديق تبدو كأنها من جلسة تصوير احترافية — بدون تصوير.' },
-        { n: '02', title: 'نصوص تركز على العرض', text: 'كل منشور مبني على عرض واحد واضح يعطي العميل سبباً لمراسلتك.' },
-        { n: '03', title: 'صور مخصصة لنشاطك', text: 'إعلان الورشة يبدو ورشة، وإعلان العيادة يبدو عيادة. لا شيء عام.' },
-        { n: '04', title: 'جاهزة لكل القنوات', text: 'بمقاسات وصيغ جاهزة للواتساب وإنستقرام وسناب شات وقوقل.' },
-        { n: '05', title: 'تسليم سريع', text: 'باقتك الكاملة تُسلّم خلال أيام، وليس أسابيع — بموعد متفق عليه مسبقًا.' },
-        { n: '06', title: 'تعديلات سهلة', text: 'غيّر الأسعار أو أسماء الخدمات أو الصياغة برسالة واحدة. بدون تعقيد.' }
+        { n: '01', title: 'نماذج صفحات هبوط', text: 'نريك كيف ممكن يظهر موقع نشاطك المحلي بدل إعلان واحد فقط: خدمات، ثقة، عرض واضح، وزر واتساب.' },
+        { n: '02', title: 'صفحة هبوط مجانية للمؤهلين', text: 'إذا كان نشاطك مناسبًا وفيه عرض واضح وسرعة تنفيذ، نبني لك صفحة هبوط مجانية كبداية.' },
+        { n: '03', title: 'باقة إطلاق كاملة عند الحاجة', text: 'بعد التأهيل، نقدر نكمل لك الموقع، الهوية، المحتوى، ومواد الواتساب ضمن عرض الإطلاق الكامل.' }
       ]
     };
   }
